@@ -110,7 +110,7 @@ sudo ldconfig
 ```protobuf
 // import "other_protos.proto"; // 如果需要引用其它的protobuf文件，可以使用import语句。
 
-syntax = "proto3"; // 指定protobuf遵循的语法格式是proto2还是proto3。在本教程和之后的开发中，我们都使用proto3语法格式。
+syntax = "proto3"; // 指定protobuf遵循的语法格式是proto2还是proto3。
 package student; // 包名声明。如在本例中，proto文件生成的类都会被放在namespace student中，这一举措的意义在于防止命名冲突
 
 enum Sex // 自定义枚举类型
