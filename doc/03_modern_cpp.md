@@ -426,3 +426,46 @@ int main() {
 }
 ```
 
+## 模板
+
+模板是泛型编程的基础，是编程中的蓝图，它将算法的思想给拓印下来，以一种独立于任何特定类型的方式编写代码。
+
+### 函数模板
+
+模板函数定义的一般形式如下：
+
+```cpp
+template <typename type> ret-type func-name(parameter list)
+{
+   // 函数体
+}
+```
+
+下面是函数模板的实例，返回两个数中的最大值：
+
+```cpp
+#include <iostream>
+#include <string>
+ 
+using namespace std;
+ 
+template <typename T>
+inline T const& Max (T const& a, T const& b) 
+{ 
+    return a < b ? b:a; 
+}
+
+int main ()
+{
+ 
+    int i = 39;
+    int j = 20;
+    cout << "Max(i, j): " << Max(i, j) << endl;    //39
+ 
+    double f1 = 13.5; 
+    double f2 = 20.7; 
+    cout << "Max(f1, f2): " << Max(f1, f2) << endl;  //20.7
+
+    return 0;
+}
+```

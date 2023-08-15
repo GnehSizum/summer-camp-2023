@@ -4,7 +4,7 @@ AI组知识库：[JLU-AI-Lab](https://tars-cat.github.io/)
 
 ### 培训安排
 
-![plan](img/plan.png)
+![plan](img/plan1.png)
 
 ### 培训目标
 
